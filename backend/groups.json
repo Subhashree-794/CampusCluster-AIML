@@ -1,0 +1,999 @@
+{
+  "groups": [
+    {
+      "group_id": 1,
+      "group_name": "Study Group 1",
+      "dominant_focus": "Web Development",
+      "preferred_time": "Evening",
+      "student_count": 7,
+      "members": [
+        {
+          "id": "STU-002",
+          "name": "Priya Patel",
+          "branch": "Information Technology",
+          "subject": "Web Development",
+          "secondary_subject": "UI/UX Design",
+          "skill_level": "Beginner",
+          "study_time": "Evening",
+          "learning_goal": "Concept Mastery"
+        },
+        {
+          "id": "STU-005",
+          "name": "Kavya Nair",
+          "branch": "Computer Science",
+          "subject": "Web Development",
+          "secondary_subject": "Database Systems",
+          "skill_level": "Intermediate",
+          "study_time": "Evening",
+          "learning_goal": "Project Collaboration"
+        },
+        {
+          "id": "STU-008",
+          "name": "Vikram Singh",
+          "branch": "Computer Science",
+          "subject": "Cybersecurity",
+          "secondary_subject": "Computer Networks",
+          "skill_level": "Intermediate",
+          "study_time": "Evening",
+          "learning_goal": "Project Collaboration"
+        },
+        {
+          "id": "STU-011",
+          "name": "Deepak Kumar",
+          "branch": "Information Technology",
+          "subject": "Web Development",
+          "secondary_subject": "Cloud Computing",
+          "skill_level": "Advanced",
+          "study_time": "Evening",
+          "learning_goal": "Project Collaboration"
+        },
+        {
+          "id": "STU-013",
+          "name": "Tanvi Deshmukh",
+          "branch": "Computer Science",
+          "subject": "Cybersecurity",
+          "secondary_subject": "Cryptography",
+          "skill_level": "Beginner",
+          "study_time": "Evening",
+          "learning_goal": "Concept Mastery"
+        },
+        {
+          "id": "STU-018",
+          "name": "Bhavna Jain",
+          "branch": "Computer Science",
+          "subject": "Web Development",
+          "secondary_subject": "Mobile App Development",
+          "skill_level": "Beginner",
+          "study_time": "Evening",
+          "learning_goal": "Exam Preparation"
+        },
+        {
+          "id": "STU-019",
+          "name": "Manish Tiwari",
+          "branch": "Information Technology",
+          "subject": "Cybersecurity",
+          "secondary_subject": "Ethical Hacking",
+          "skill_level": "Advanced",
+          "study_time": "Evening",
+          "learning_goal": "Competitive Coding"
+        }
+      ],
+      "subject_distribution": {
+        "Web Development": 4,
+        "Cybersecurity": 3
+      },
+      "top_subjects": [
+        {
+          "subject": "Web Development",
+          "count": 4,
+          "percentage": 57.1
+        },
+        {
+          "subject": "Cybersecurity",
+          "count": 3,
+          "percentage": 42.9
+        }
+      ],
+      "skill_distribution": {
+        "Beginner": 3,
+        "Intermediate": 2,
+        "Advanced": 2
+      },
+      "time_distribution": {
+        "Evening": 7
+      },
+      "branch_distribution": {
+        "Information Technology": 3,
+        "Computer Science": 4
+      },
+      "goal_distribution": {
+        "Concept Mastery": 2,
+        "Project Collaboration": 3,
+        "Exam Preparation": 1,
+        "Competitive Coding": 1
+      }
+    },
+    {
+      "group_id": 2,
+      "group_name": "Study Group 2",
+      "dominant_focus": "Machine Learning",
+      "preferred_time": "Morning",
+      "student_count": 8,
+      "members": [
+        {
+          "id": "STU-001",
+          "name": "Aarav Sharma",
+          "branch": "Computer Science",
+          "subject": "Machine Learning",
+          "secondary_subject": "Python Programming",
+          "skill_level": "Intermediate",
+          "study_time": "Morning",
+          "learning_goal": "Project Collaboration"
+        },
+        {
+          "id": "STU-003",
+          "name": "Rohan Mehta",
+          "branch": "Computer Science",
+          "subject": "Data Structures & Algorithms",
+          "secondary_subject": "C++ Programming",
+          "skill_level": "Advanced",
+          "study_time": "Morning",
+          "learning_goal": "Competitive Coding"
+        },
+        {
+          "id": "STU-004",
+          "name": "Ananya Iyer",
+          "branch": "AI & Data Science",
+          "subject": "Machine Learning",
+          "secondary_subject": "Deep Learning",
+          "skill_level": "Advanced",
+          "study_time": "Morning",
+          "learning_goal": "Exam Preparation"
+        },
+        {
+          "id": "STU-007",
+          "name": "Sneha Rao",
+          "branch": "AI & Data Science",
+          "subject": "Data Structures & Algorithms",
+          "secondary_subject": "Python Programming",
+          "skill_level": "Beginner",
+          "study_time": "Morning",
+          "learning_goal": "Concept Mastery"
+        },
+        {
+          "id": "STU-010",
+          "name": "Rahul Joshi",
+          "branch": "Computer Science",
+          "subject": "Data Structures & Algorithms",
+          "secondary_subject": "Java Programming",
+          "skill_level": "Advanced",
+          "study_time": "Morning",
+          "learning_goal": "Competitive Coding"
+        },
+        {
+          "id": "STU-012",
+          "name": "Meera Krishnan",
+          "branch": "AI & Data Science",
+          "subject": "Machine Learning",
+          "secondary_subject": "Natural Language Processing",
+          "skill_level": "Intermediate",
+          "study_time": "Morning",
+          "learning_goal": "Project Collaboration"
+        },
+        {
+          "id": "STU-014",
+          "name": "Arjun Reddy",
+          "branch": "Electronics & Communication",
+          "subject": "Data Structures & Algorithms",
+          "secondary_subject": "C++ Programming",
+          "skill_level": "Intermediate",
+          "study_time": "Morning",
+          "learning_goal": "Placement Prep"
+        },
+        {
+          "id": "STU-017",
+          "name": "Ishaan Roy",
+          "branch": "AI & Data Science",
+          "subject": "Machine Learning",
+          "secondary_subject": "Computer Vision",
+          "skill_level": "Beginner",
+          "study_time": "Morning",
+          "learning_goal": "Concept Mastery"
+        }
+      ],
+      "subject_distribution": {
+        "Machine Learning": 4,
+        "Data Structures & Algorithms": 4
+      },
+      "top_subjects": [
+        {
+          "subject": "Machine Learning",
+          "count": 4,
+          "percentage": 50.0
+        },
+        {
+          "subject": "Data Structures & Algorithms",
+          "count": 4,
+          "percentage": 50.0
+        }
+      ],
+      "skill_distribution": {
+        "Beginner": 2,
+        "Intermediate": 3,
+        "Advanced": 3
+      },
+      "time_distribution": {
+        "Morning": 8
+      },
+      "branch_distribution": {
+        "Computer Science": 3,
+        "AI & Data Science": 4,
+        "Electronics & Communication": 1
+      },
+      "goal_distribution": {
+        "Project Collaboration": 2,
+        "Competitive Coding": 2,
+        "Exam Preparation": 1,
+        "Concept Mastery": 2,
+        "Placement Prep": 1
+      }
+    },
+    {
+      "group_id": 3,
+      "group_name": "Study Group 3",
+      "dominant_focus": "Cloud Computing",
+      "preferred_time": "Afternoon",
+      "student_count": 3,
+      "members": [
+        {
+          "id": "STU-006",
+          "name": "Aditya Verma",
+          "branch": "Information Technology",
+          "subject": "Cloud Computing",
+          "secondary_subject": "DevOps",
+          "skill_level": "Intermediate",
+          "study_time": "Afternoon",
+          "learning_goal": "Placement Prep"
+        },
+        {
+          "id": "STU-009",
+          "name": "Neha Gupta",
+          "branch": "Electronics & Communication",
+          "subject": "Cloud Computing",
+          "secondary_subject": "Internet of Things",
+          "skill_level": "Beginner",
+          "study_time": "Afternoon",
+          "learning_goal": "Exam Preparation"
+        },
+        {
+          "id": "STU-016",
+          "name": "Siddharth Malhotra",
+          "branch": "Computer Science",
+          "subject": "Cloud Computing",
+          "secondary_subject": "System Design",
+          "skill_level": "Advanced",
+          "study_time": "Afternoon",
+          "learning_goal": "Placement Prep"
+        }
+      ],
+      "subject_distribution": {
+        "Cloud Computing": 3
+      },
+      "top_subjects": [
+        {
+          "subject": "Cloud Computing",
+          "count": 3,
+          "percentage": 100.0
+        }
+      ],
+      "skill_distribution": {
+        "Beginner": 1,
+        "Intermediate": 1,
+        "Advanced": 1
+      },
+      "time_distribution": {
+        "Afternoon": 3
+      },
+      "branch_distribution": {
+        "Information Technology": 1,
+        "Electronics & Communication": 1,
+        "Computer Science": 1
+      },
+      "goal_distribution": {
+        "Placement Prep": 2,
+        "Exam Preparation": 1
+      }
+    },
+    {
+      "group_id": 4,
+      "group_name": "Study Group 4",
+      "dominant_focus": "Database Systems",
+      "preferred_time": "Afternoon",
+      "student_count": 2,
+      "members": [
+        {
+          "id": "STU-015",
+          "name": "Pooja Hegde",
+          "branch": "Information Technology",
+          "subject": "Database Systems",
+          "secondary_subject": "SQL & Data Warehousing",
+          "skill_level": "Intermediate",
+          "study_time": "Afternoon",
+          "learning_goal": "Exam Preparation"
+        },
+        {
+          "id": "STU-020",
+          "name": "Divya Menon",
+          "branch": "Computer Science",
+          "subject": "Database Systems",
+          "secondary_subject": "NoSQL Databases",
+          "skill_level": "Advanced",
+          "study_time": "Afternoon",
+          "learning_goal": "Project Collaboration"
+        }
+      ],
+      "subject_distribution": {
+        "Database Systems": 2
+      },
+      "top_subjects": [
+        {
+          "subject": "Database Systems",
+          "count": 2,
+          "percentage": 100.0
+        }
+      ],
+      "skill_distribution": {
+        "Beginner": 0,
+        "Intermediate": 1,
+        "Advanced": 1
+      },
+      "time_distribution": {
+        "Afternoon": 2
+      },
+      "branch_distribution": {
+        "Information Technology": 1,
+        "Computer Science": 1
+      },
+      "goal_distribution": {
+        "Exam Preparation": 1,
+        "Project Collaboration": 1
+      }
+    }
+  ],
+  "simulation": {
+    "k": 4,
+    "total_students": 20,
+    "n_features": 37,
+    "feature_names": [
+      "skill_level_score",
+      "branch_AI & Data Science",
+      "branch_Computer Science",
+      "branch_Electronics & Communication",
+      "branch_Information Technology",
+      "subject_Cloud Computing",
+      "subject_Cybersecurity",
+      "subject_Data Structures & Algorithms",
+      "subject_Database Systems",
+      "subject_Machine Learning",
+      "subject_Web Development",
+      "study_time_Afternoon",
+      "study_time_Evening",
+      "study_time_Morning",
+      "learning_goal_Competitive Coding",
+      "learning_goal_Concept Mastery",
+      "learning_goal_Exam Preparation",
+      "learning_goal_Placement Prep",
+      "learning_goal_Project Collaboration",
+      "sec_subj_C++ Programming",
+      "sec_subj_Cloud Computing",
+      "sec_subj_Computer Networks",
+      "sec_subj_Computer Vision",
+      "sec_subj_Cryptography",
+      "sec_subj_Database Systems",
+      "sec_subj_Deep Learning",
+      "sec_subj_DevOps",
+      "sec_subj_Ethical Hacking",
+      "sec_subj_Internet of Things",
+      "sec_subj_Java Programming",
+      "sec_subj_Mobile App Development",
+      "sec_subj_Natural Language Processing",
+      "sec_subj_NoSQL Databases",
+      "sec_subj_Python Programming",
+      "sec_subj_SQL & Data Warehousing",
+      "sec_subj_System Design",
+      "sec_subj_UI/UX Design"
+    ],
+    "sample_raw_features": [
+      {
+        "student_id": "STU-001",
+        "name": "Aarav Sharma",
+        "values": [
+          2.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "student_id": "STU-002",
+        "name": "Priya Patel",
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "student_id": "STU-003",
+        "name": "Rohan Mehta",
+        "values": [
+          3.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "student_id": "STU-004",
+        "name": "Ananya Iyer",
+        "values": [
+          3.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "student_id": "STU-005",
+        "name": "Kavya Nair",
+        "values": [
+          2.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "sample_scaled_features": [
+      {
+        "student_id": "STU-001",
+        "name": "Aarav Sharma",
+        "values": [
+          -0.06,
+          -0.5,
+          1.11,
+          -0.33,
+          -0.58,
+          -0.42,
+          -0.42,
+          -0.5,
+          -0.33,
+          2.0,
+          -0.5,
+          -0.58,
+          -0.73,
+          1.22,
+          -0.42,
+          -0.5,
+          -0.5,
+          -0.42,
+          1.53,
+          -0.33,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          3.0,
+          -0.23,
+          -0.23,
+          -0.23
+        ]
+      },
+      {
+        "student_id": "STU-002",
+        "name": "Priya Patel",
+        "values": [
+          -1.3,
+          -0.5,
+          -0.9,
+          -0.33,
+          1.73,
+          -0.42,
+          -0.42,
+          -0.5,
+          -0.33,
+          -0.5,
+          2.0,
+          -0.58,
+          1.36,
+          -0.82,
+          -0.42,
+          2.0,
+          -0.5,
+          -0.42,
+          -0.65,
+          -0.33,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.33,
+          -0.23,
+          -0.23,
+          4.36
+        ]
+      },
+      {
+        "student_id": "STU-003",
+        "name": "Rohan Mehta",
+        "values": [
+          1.18,
+          -0.5,
+          1.11,
+          -0.33,
+          -0.58,
+          -0.42,
+          -0.42,
+          2.0,
+          -0.33,
+          -0.5,
+          -0.5,
+          -0.58,
+          -0.73,
+          1.22,
+          2.38,
+          -0.5,
+          -0.5,
+          -0.42,
+          -0.65,
+          3.0,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.33,
+          -0.23,
+          -0.23,
+          -0.23
+        ]
+      },
+      {
+        "student_id": "STU-004",
+        "name": "Ananya Iyer",
+        "values": [
+          1.18,
+          2.0,
+          -0.9,
+          -0.33,
+          -0.58,
+          -0.42,
+          -0.42,
+          -0.5,
+          -0.33,
+          2.0,
+          -0.5,
+          -0.58,
+          -0.73,
+          1.22,
+          -0.42,
+          -0.5,
+          2.0,
+          -0.42,
+          -0.65,
+          -0.33,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          4.36,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.33,
+          -0.23,
+          -0.23,
+          -0.23
+        ]
+      },
+      {
+        "student_id": "STU-005",
+        "name": "Kavya Nair",
+        "values": [
+          -0.06,
+          -0.5,
+          1.11,
+          -0.33,
+          -0.58,
+          -0.42,
+          -0.42,
+          -0.5,
+          -0.33,
+          -0.5,
+          2.0,
+          -0.58,
+          1.36,
+          -0.82,
+          -0.42,
+          -0.5,
+          -0.5,
+          -0.42,
+          1.53,
+          -0.33,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          4.36,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.23,
+          -0.33,
+          -0.23,
+          -0.23,
+          -0.23
+        ]
+      }
+    ],
+    "inertia": 513.44,
+    "n_iter": 3,
+    "cluster_assignments": [
+      {
+        "student_id": "STU-001",
+        "student_name": "Aarav Sharma",
+        "assigned_group": 2,
+        "distance_to_centroid": 4.302
+      },
+      {
+        "student_id": "STU-002",
+        "student_name": "Priya Patel",
+        "assigned_group": 1,
+        "distance_to_centroid": 5.402
+      },
+      {
+        "student_id": "STU-003",
+        "student_name": "Rohan Mehta",
+        "assigned_group": 2,
+        "distance_to_centroid": 4.605
+      },
+      {
+        "student_id": "STU-004",
+        "student_name": "Ananya Iyer",
+        "assigned_group": 2,
+        "distance_to_centroid": 5.585
+      },
+      {
+        "student_id": "STU-005",
+        "student_name": "Kavya Nair",
+        "assigned_group": 1,
+        "distance_to_centroid": 4.974
+      },
+      {
+        "student_id": "STU-006",
+        "student_name": "Aditya Verma",
+        "assigned_group": 3,
+        "distance_to_centroid": 4.433
+      },
+      {
+        "student_id": "STU-007",
+        "student_name": "Sneha Rao",
+        "assigned_group": 2,
+        "distance_to_centroid": 4.491
+      },
+      {
+        "student_id": "STU-008",
+        "student_name": "Vikram Singh",
+        "assigned_group": 1,
+        "distance_to_centroid": 5.172
+      },
+      {
+        "student_id": "STU-009",
+        "student_name": "Neha Gupta",
+        "assigned_group": 3,
+        "distance_to_centroid": 5.275
+      },
+      {
+        "student_id": "STU-010",
+        "student_name": "Rahul Joshi",
+        "assigned_group": 2,
+        "distance_to_centroid": 5.607
+      },
+      {
+        "student_id": "STU-011",
+        "student_name": "Deepak Kumar",
+        "assigned_group": 1,
+        "distance_to_centroid": 5.298
+      },
+      {
+        "student_id": "STU-012",
+        "student_name": "Meera Krishnan",
+        "assigned_group": 2,
+        "distance_to_centroid": 5.266
+      },
+      {
+        "student_id": "STU-013",
+        "student_name": "Tanvi Deshmukh",
+        "assigned_group": 1,
+        "distance_to_centroid": 5.464
+      },
+      {
+        "student_id": "STU-014",
+        "student_name": "Arjun Reddy",
+        "assigned_group": 2,
+        "distance_to_centroid": 5.416
+      },
+      {
+        "student_id": "STU-015",
+        "student_name": "Pooja Hegde",
+        "assigned_group": 4,
+        "distance_to_centroid": 4.001
+      },
+      {
+        "student_id": "STU-016",
+        "student_name": "Siddharth Malhotra",
+        "assigned_group": 3,
+        "distance_to_centroid": 4.557
+      },
+      {
+        "student_id": "STU-017",
+        "student_name": "Ishaan Roy",
+        "assigned_group": 2,
+        "distance_to_centroid": 5.514
+      },
+      {
+        "student_id": "STU-018",
+        "student_name": "Bhavna Jain",
+        "assigned_group": 1,
+        "distance_to_centroid": 5.443
+      },
+      {
+        "student_id": "STU-019",
+        "student_name": "Manish Tiwari",
+        "assigned_group": 1,
+        "distance_to_centroid": 5.916
+      },
+      {
+        "student_id": "STU-020",
+        "student_name": "Divya Menon",
+        "assigned_group": 4,
+        "distance_to_centroid": 4.001
+      }
+    ],
+    "cluster_sizes": [
+      {
+        "group": "Group 1",
+        "count": 7
+      },
+      {
+        "group": "Group 2",
+        "count": 8
+      },
+      {
+        "group": "Group 3",
+        "count": 3
+      },
+      {
+        "group": "Group 4",
+        "count": 2
+      }
+    ],
+    "algorithm_specs": {
+      "name": "K-Means (Scikit-Learn)",
+      "n_clusters": 4,
+      "init_method": "k-means++",
+      "n_init": 10,
+      "random_state": 42,
+      "distance_metric": "Euclidean Distance"
+    }
+  },
+  "summary": {
+    "total_students": 20,
+    "k": 4,
+    "groups_formed": 4,
+    "avg_students_per_group": 5.0,
+    "inertia": 513.44,
+    "iterations": 3
+  }
+}
